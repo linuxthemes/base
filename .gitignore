@@ -1,0 +1,39 @@
+*
+!.gitignore
+!.gitconfig
+
+# files
+!README.md
+!CONTRIBUTING.md
+!.bashrc
+!.zshrc
+!.xprofile
+
+# folders
+!Pictures
+!Pictures/**
+!.icons
+!.themes
+!.themes/**
+!.fonts
+
+# config
+!.config
+!.config/rofi
+!.config/fastfetch
+
+!.config/xfce4
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/session.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/pointers.xml
+
+!.vscode
+!.vscode/extensions
+!.vscode/extensions/extensions.json
+
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
+!.config/Code/User/keybindings.json
+
