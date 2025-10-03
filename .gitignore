@@ -19,7 +19,7 @@
 !.fonts
 
 # config
-!.config/
+!.config
 
 !.config/rofi
 !.config/rofi/*
