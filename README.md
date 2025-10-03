@@ -1,6 +1,5 @@
 # linux themes base
-![base](Pictures/image.png)
-
+    
 
 ## install
 ```sh
