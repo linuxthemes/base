@@ -4,7 +4,7 @@
 
 ## install
 ```sh
-git init -b main $HOME && git remote add origin https://github.com/linuxthemes/base
+git init $HOME && git remote add origin https://github.com/linuxthemes/base
 ```
 ```sh
 git pull && git submodule update --init --recursive
