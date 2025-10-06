@@ -15,6 +15,10 @@
 !.config/eza/*
 
 
+!.config/fastfetch
+!.config/fastfetch/*
+
+
 
 
 
