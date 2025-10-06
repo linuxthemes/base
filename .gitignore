@@ -11,8 +11,12 @@
 
 !Pictures
 
+
 !.config/eza
 !.config/eza/*
+
+!.config/rofi
+!.config/rofi/*
 
 !.config/fastfetch
 !.config/fastfetch/*
@@ -27,3 +31,5 @@
 
 !.config/Thunar
 !.config/Thunar/*
+
+
