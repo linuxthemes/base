@@ -11,8 +11,9 @@
 
 !Pictures
 
-!eza
-!eza/theme.yml
+!.config/eza
+!.config/eza/*
+
 
 
 
