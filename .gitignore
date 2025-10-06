@@ -29,6 +29,11 @@
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
 
+!.config/Code - OSS
+!.config/Code - OSS/User
+!.config/Code - OSS/User/settings.json
+!.config/Code - OSS/User/keybindings.json
+
 !.config/Thunar
 !.config/Thunar/*
 
