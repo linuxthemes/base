@@ -9,7 +9,7 @@ git init $HOME && git remote add origin https://github.com/linuxthemes/base
 
 Download themes
 ```sh
-git pull && git submodule update --init --recursive
+git pull
 ```
 
 ## Themes
