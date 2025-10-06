@@ -1,7 +1,6 @@
 
 *
 !.gitignore
-# !.gitconfig
 
 # files
 !README.md
@@ -14,11 +13,11 @@
 !Pictures
 !.icons
 !.themes
-!.fonts
 !.config
+!.fonts
 
 !.config/eza
-# !.config/eza/theme.yml
+!.config/eza/theme.yml
 
 
 
