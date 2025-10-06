@@ -1,25 +1,6 @@
 
 *
-!.gitignore
 
-# files
-!README.md
-!CONTRIBUTING.md
+# !/
 !.bashrc
-!.zshrc
-!.xprofile
-
-# folders
-!Pictures
-!.icons
-!.themes
-!.config
-!.fonts
-
-!.config/eza
-!.config/eza/theme.yml
-
-
-
-
 
