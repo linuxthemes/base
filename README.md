@@ -42,9 +42,9 @@ tokoyonight
 
 base programs list
 ```sh
-rofi
+fzf
 eza
-xfce
+rofi
 micro
 vscode
 jetbrains-toolbox
@@ -56,18 +56,11 @@ google-chrome
 github-desktop
 ksystemlog
 ksystemdgenie
-flatpak
-sysdmanager
 
-# go
-# gcc
-# npm
-# node
-# java
-# python
-# elixir
-# ruby
-
+xfce
+gnome
+kde
+wayland
 ```
 
 
