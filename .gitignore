@@ -10,8 +10,9 @@
 !.config
 
 !Pictures
-!Pictures/*
 
+!eza
+!eza/theme.yml
 
 
 
