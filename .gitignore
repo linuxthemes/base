@@ -6,6 +6,7 @@
 
 !.bashrc
 !.themes
+!.themes/*
 !.icons
 !.icons/*
 !.config
