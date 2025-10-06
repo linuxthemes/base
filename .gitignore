@@ -1,7 +1,7 @@
 
 *
 !.gitignore
-!.gitconfig
+# !.gitconfig
 
 # files
 !README.md
@@ -41,4 +41,17 @@
 !.config/Code/User
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
+
+
+
+
+
+
+
+
+
+
+
+
+
 
