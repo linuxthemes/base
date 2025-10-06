@@ -20,6 +20,9 @@
 !.config/ghostty
 !.config/ghostty/*
 
-
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
+!.config/Code/User/keybindings.json
 
 
