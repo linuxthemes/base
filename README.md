@@ -18,6 +18,11 @@ alias themes-remote="git remote set-url "
 themes-install
 ```
 
+```sh
+themes-update
+```
+
+
 ## Themes
 
 Switch themes 
