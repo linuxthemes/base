@@ -12,20 +12,16 @@
 
 # folders
 !Pictures
-!Pictures/**
 !.icons
 !.themes
-!.themes/**
 !.fonts
 
 # config
 !.config
 
 !.config/rofi
-!.config/rofi/*
 
 !.config/fastfetch
-!.config/fastfetch/*
 
 !.config/xfce4
 .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
