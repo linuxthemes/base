@@ -4,43 +4,40 @@
 
 Install base
 ```sh
-git init $HOME && git remote add origin https://github.com/linuxthemes/base
+echo "
+alias themes-install="git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull;"
+alias themes-update="git pull"
+alias themes-save="git update"
+alias themes-switch="git checkout "
+alias themes-create="git -b checkout "
+alias themes-remote=" "
+" >> ./bashrc
 ```
 
-Download themes
 ```sh
-git pull
+themes-install
 ```
 
 ## Themes
 
 Switch themes 
 ```sh
-git checkout tokoyo-night
+themes-switch tokoyonight
 ```
 
 Make your own theme
 ```sh
-git -b checkout the-best-theme 
+themes-create thebesttheme
 ```
 
 base themes list
 ```sh
 base
 basex
-baseg
 basek
-jade
-nord
-gruvbox
-everforest
-catppuccin
-catppuccin-latte
-catppuccin-matte
-ristretto
-rose-pine
-tokyo-night
-matte-black
+baseg
+basew
+tokoyonight
 ```
 
 base programs list
