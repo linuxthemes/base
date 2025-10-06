@@ -15,12 +15,12 @@
 !.icons
 !.themes
 !.fonts
-
-# config
 !.config
 
 !.config/rofi
+!.config/rofi/*
 
+!.config/eza
 !.config/eza/theme.yml
 
 !.config/fastfetch
