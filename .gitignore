@@ -53,4 +53,7 @@
 !.config/kdedefaults
 !.config/kdedefaults/*
 
+!.config/xsettingsd
+!.config/xsettingsd/xsettingsd.conf
+
 
