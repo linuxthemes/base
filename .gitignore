@@ -1,4 +1,19 @@
 *
+!.gitignore
+
+!README.md
+!CONTRIBUTING.md # https://github.com/linuxthemes/base
 
 !.bashrc
+!.themes
+!.icons
+!.config
+
+!Pictures
+!Pictures/*
+
+
+
+
+
 
