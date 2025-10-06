@@ -142,6 +142,7 @@ TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
 TerminalService=com.mitchellh.ghostty.desktop
 
 [KDE]
+AnimationDurationFactor=0.08838834764831843
 LookAndFeelPackage=org.kde.breezedark.desktop
 
 [KFileDialog Settings]
