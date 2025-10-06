@@ -1,2 +1,2 @@
-# .config
+# Themes base
 
