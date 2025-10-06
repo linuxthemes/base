@@ -14,3 +14,4 @@ alias themes-install="git init $HOME && git remote add origin https://github.com
 alias themes-update="git pull"
 alias themes-switch="git checkout "
 alias themes-create="git -b checkout "
+alias themes-push="git push "
