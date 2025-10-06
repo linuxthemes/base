@@ -10,7 +10,7 @@ alias themes-update="git pull"
 alias themes-save="git update"
 alias themes-switch="git checkout "
 alias themes-create="git -b checkout "
-alias themes-remote=" "
+alias themes-remote="git remote set-url "
 " >> ./bashrc
 ```
 
