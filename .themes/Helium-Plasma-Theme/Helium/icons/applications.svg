@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="applications.svg"
+   version="1.1"
+   id="svg3613"
+   height="32"
+   width="54">
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:current-layer="svg3613"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="9.5886944"
+     inkscape:cx="-9.8169337"
+     inkscape:zoom="5.656854"
+     showgrid="true"
+     id="namedview12"
+     inkscape:window-height="1009"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff">
+    <inkscape:grid
+       enabled="true"
+       originy="1.5e-05"
+       originx="2e-06"
+       id="grid818"
+       type="xygrid" />
+    <inkscape:grid
+       originy="0"
+       originx="22"
+       enabled="false"
+       empspacing="2"
+       empopacity="0.25098039"
+       empcolor="#ff0000"
+       spacingy="0.5"
+       spacingx="0.5"
+       id="grid851"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3615">
+    <inkscape:perspective
+       id="perspective853"
+       inkscape:persp3d-origin="16 : 10.666667 : 1"
+       inkscape:vp_z="32 : 16 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 16 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <style
+       id="current-color-scheme"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background{
+        color:#E9E8E8;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground{
+        color:#ffffff;
+      }
+      .ColorScheme-ViewHover {
+        color:#000000;
+      }
+      .ColorScheme-ViewFocus{
+        color:#5a5a5a;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#E9E8E8;
+      }
+      .ColorScheme-ButtonHover {
+        color:#1489ff;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#2B74C7;
+      }
+</style>
+  </defs>
+  <g
+     transform="translate(22)"
+     id="applications-other">
+    <path
+       inkscape:connector-curvature="0"
+       style="clip-rule:evenodd;fill:#202020;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996;fill-opacity:1"
+       d="M 3,5 V 27 H 29 V 5 Z M 4,6 H 28 V 9 H 4 Z m 15,1 v 1 h 2 V 7 Z m 3,0 v 1 h 2 V 7 Z m 3,0 v 1 h 2 V 7 Z M 4,10 H 28 V 26 H 4 Z m 8,2 v 12 l 9,-6 z M 13,13.869141 19.197266,18 13,22.130859 Z"
+       id="path2-6-6" />
+    <rect
+       style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke-width:1.00212538;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+       id="rect817-7"
+       width="32"
+       height="32"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     transform="translate(0,10)"
+     id="22-22-applications-other">
+    <path
+       inkscape:connector-curvature="0"
+       style="clip-rule:evenodd;fill:#202020;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996;fill-opacity:1"
+       d="M 2,2 V 4 5 20 H 20 V 5 4 2 Z M 3,3 H 19 V 4 H 3 Z M 3,5 H 19 V 19 H 3 Z m 6,3 v 8 l 6,-4 z M 10,9.8691406 13.197266,12 10,14.130859 Z"
+       id="path2-6-9" />
+    <rect
+       style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke-width:0.99173671;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+       id="rect817-75-6"
+       width="22"
+       height="22"
+       x="0"
+       y="0" />
+  </g>
+</svg>
