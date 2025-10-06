@@ -14,11 +14,11 @@
 !.config/eza
 !.config/eza/*
 
-
 !.config/fastfetch
 !.config/fastfetch/*
 
-
+!.config/ghostty
+!.config/ghostty/*
 
 
 
