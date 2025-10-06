@@ -137,6 +137,10 @@ DirSelectDialog Size=820,584
 History Items[$e]=file:$HOME,file:$HOME/.config
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
+[General]
+TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
+TerminalService=com.mitchellh.ghostty.desktop
+
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
 
