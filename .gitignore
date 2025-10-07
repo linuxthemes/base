@@ -44,8 +44,7 @@
 !.config/gtk-4.0
 !.config/gtk-4.0/*
 
-
-
+#kde
 !.config/Trolltech.conf
 !.config/konsolerc
 !.config/ksplashrc
@@ -55,5 +54,12 @@
 
 !.config/xsettingsd
 !.config/xsettingsd/xsettingsd.conf
+
+
+#gnome
+
+#xfce
+!.config/xfce4
+!.config/xfce4/**
 
 
