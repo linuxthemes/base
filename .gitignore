@@ -36,9 +36,6 @@
 !.config/Code - OSS/User/settings.json
 !.config/Code - OSS/User/keybindings.json
 
-!.config/Thunar
-!.config/Thunar/*
-
 !.config/gtk-3.0
 !.config/gtk-3.0/*
 !.config/gtk-4.0
@@ -58,8 +55,18 @@
 
 #gnome
 
+
+
+
 #xfce
 !.config/xfce4
 !.config/xfce4/**
+
+!.config/Thunar
+!.config/Thunar/*
+
+!.config/Mousepad
+!.config/Mousepad/*
+
 
 
