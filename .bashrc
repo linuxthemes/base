@@ -2,11 +2,11 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-# CentOS or Fedora (/etc/bashrc)
+# CentOS or Fedora Prompt
 # [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
 
 
-# Debian (/etc/bash.bashrc)
+# Debian Prompt
 # PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 
 
@@ -17,15 +17,44 @@ else
     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
 fi
 
-
-# user created
+# package managers
 alias sudo='sudo ' # yes you actually need this 
+
+# emerge
+# alias update='emerge -avqDN @world' 
+# alias install='emerge -avq '
+# alias remove='emerge --help '
+# alias clean='emerge --help '
+# alias listall='qlist -I '
+
+# apt
+# alias update='apt update && apt upgrade -y ' 
+# alias install='apt install '
+# alias installa='apt intsall --experiemental --help  '
+# alias remove='apt remove '
+# alias clean='apt clean --help '
+# alias listall='apt list manaual --help'
+
+# nala
+# alias update='nala update && nala upgrade -y ' 
+# alias install='nala install '
+# alias installa='nala intsall --experiemental --help  '
+# alias remove='nala remove '
+# alias clean='nala clean --help '
+# alias listall='nala list manaual --help'
+
+# dnf
+
+# yum
+
+# arch 
 alias update='pacman -Syu ' 
 alias install='pacman -S '
 alias installa='yay -S  '
 alias remove='pacman -R '
 alias listall=''
 
+# themes
 alias themes-install="git init $HOME && git remote add origin https://github.com/linuxthemes/base"
 alias themes-update="git pull"
 alias themes-switch="git checkout "
