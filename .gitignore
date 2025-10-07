@@ -36,16 +36,12 @@
 !.config/Code - OSS/User/settings.json
 !.config/Code - OSS/User/keybindings.json
 
-!.config/Thunar
-!.config/Thunar/*
-
 !.config/gtk-3.0
 !.config/gtk-3.0/*
 !.config/gtk-4.0
 !.config/gtk-4.0/*
 
-
-
+#kde
 !.config/Trolltech.conf
 !.config/konsolerc
 !.config/ksplashrc
@@ -55,5 +51,22 @@
 
 !.config/xsettingsd
 !.config/xsettingsd/xsettingsd.conf
+
+
+#gnome
+
+
+
+
+#xfce
+!.config/xfce4
+!.config/xfce4/**
+
+!.config/Thunar
+!.config/Thunar/*
+
+!.config/Mousepad
+!.config/Mousepad/*
+
 
 
