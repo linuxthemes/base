@@ -1,25 +1,21 @@
-
 *
 !.gitignore
-!.gitconfig
 
-# files
 !README.md
-!CONTRIBUTING.md
-!.bashrc
-!.zshrc
-!.xprofile
+!CONTRIBUTING.md # https://github.com/linuxthemes/base
 
-# folders
-!Pictures
-!Pictures/**
-!.icons
+!.bashrc
 !.themes
 !.themes/**
-!.fonts
-
-# config
+!.icons
+!.icons/**
 !.config
+
+!Pictures
+!Pictures/*
+
+!.config/eza
+!.config/eza/*
 
 !.config/rofi
 !.config/rofi/*
@@ -27,18 +23,50 @@
 !.config/fastfetch
 !.config/fastfetch/*
 
-!.config/xfce4
-.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
-.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
-.config/xfce4/xfconf/xfce-perchannel-xml/session.xml
-.config/xfce4/xfconf/xfce-perchannel-xml/pointers.xml
-
-!.vscode
-!.vscode/extensions
-!.vscode/extensions/extensions.json
+!.config/ghostty
+!.config/ghostty/*
 
 !.config/Code
 !.config/Code/User
 !.config/Code/User/settings.json
 !.config/Code/User/keybindings.json
+
+!.config/Code - OSS
+!.config/Code - OSS/User
+!.config/Code - OSS/User/settings.json
+!.config/Code - OSS/User/keybindings.json
+
+!.config/gtk-3.0
+!.config/gtk-3.0/*
+!.config/gtk-4.0
+!.config/gtk-4.0/*
+
+#kde
+!.config/Trolltech.conf
+!.config/konsolerc
+!.config/ksplashrc
+!.config/kdeglobals
+!.config/kdedefaults
+!.config/kdedefaults/*
+
+!.config/xsettingsd
+!.config/xsettingsd/xsettingsd.conf
+
+
+#gnome
+
+
+
+
+#xfce
+!.config/xfce4
+!.config/xfce4/**
+
+!.config/Thunar
+!.config/Thunar/*
+
+!.config/Mousepad
+!.config/Mousepad/*
+
+
 

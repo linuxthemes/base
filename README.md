@@ -1,45 +1,75 @@
-# linux themes base
-![base](Pictures/image.png)
+# Themes Base
+    
+## Install Themes 
 
-
-## install
+Install base
 ```sh
-git init $HOME && git remote add origin https://github.com/linuxthemes/base
-```
-```sh
-git pull && git submodule update --init --recursive
+echo "
+alias themes-install="git init $HOME; git remote add origin https://github.com/linuxthemes/base; git pull;"
+alias themes-update="git pull"
+alias themes-save="git update"
+alias themes-switch="git checkout "
+alias themes-create="git -b checkout "
+alias themes-remote="git remote set-url "
+" >> ./bashrc
 ```
 
-## themes
+```sh
+themes-install
+```
+
+```sh
+themes-update
+```
+
+
+## Themes
 
 Switch themes 
 ```sh
-git checkout tokoyo-night
+themes-switch tokoyonight
 ```
 
-Make your own theme!
+Make your own theme
 ```sh
-git -b checkout the-best-theme 
-```
-```sh
-git push 
+themes-create thebesttheme
 ```
 
 base themes list
 ```sh
 base
-nord
-catppuccin-latte
-catppuccin
-everforest
-gruvbox
-kanagawa
-matte-black
-osaka-jade
-ristretto
-rose-pine
-tokyo-night
+basex
+basek
+baseg
+basew
+tokoyonight
 ```
+
+base programs list
+```sh
+fzf
+eza
+rofi
+micro
+vscode
+jetbrains-toolbox
+firefox
+ghostty
+ulauncher
+gnome-terminal
+google-chrome
+github-desktop
+ksystemlog
+ksystemdgenie
+
+xfce
+gnome
+kde
+wayland
+```
+
+
+![Alt](https://repobeats.axiom.co/api/embed/ff6ce752ed4e193227810cd238820d385fcda408.svg "Repobeats analytics image")
 
 
 

@@ -1,9 +1,0 @@
-[submodule ".themes"]
-	path = .themes
-	url = https://github.com/linuxthemes/.themes
-[submodule ".icons"]
-	path = .icons
-	url = https://github.com/linuxthemes/.icons
-[submodule ".config"]
-	path = .config
-	url = https://github.com/linuxthemes/.config
