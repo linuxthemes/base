@@ -1,0 +1,89 @@
+# base
+
+*
+!.gitignore
+!post-checkout
+
+# home
+!README.md
+!CONTRIBUTING.md
+
+!notes
+!.bashrc
+!install
+!programs
+!bookmarks
+!Pictures
+!Pictures/*
+
+!.themes
+!.themes/**
+
+!.icons
+!.icons/**
+
+# programs
+!.config
+
+!.config/eza
+!.config/eza/**
+
+!.config/micro
+!.config/micro/bindings.json
+!.config/micro/settings.json
+
+!.config/rofi
+!.config/rofi/**
+
+!.config/fastfetch
+!.config/fastfetch/**
+
+!.config/ghostty
+!.config/ghostty/**
+
+!.config/btop
+!.config/btop/**
+
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
+!.config/Code/User/keybindings.json
+
+!.config/Code - OSS
+!.config/Code - OSS/User
+!.config/Code - OSS/User/settings.json
+!.config/Code - OSS/User/keybindings.json
+
+# gtk
+!.config/gtk-3.0
+!.config/gtk-3.0/*
+!.config/gtk-4.0
+!.config/gtk-4.0/*
+
+# x
+!.config/xsettingsd/xsettingsd.conf
+
+# wayland
+
+# kde
+!.config/kdeglobals
+!.config/konsolerc
+!.config/plasmarc
+!.config/plasmashellrc
+!.config/plasmanotifyrc
+!.config/plasma-org.kde.plasma.desktop-appletsrc
+
+# xfce
+!.config/xfce4
+!.config/xfce4/**
+
+!.config/Thunar
+!.config/Thunar/**
+
+!.config/Mousepad
+!.config/Mousepad/**
+
+# hypr
+!.config/hypr
+!.config/hypr/**
+

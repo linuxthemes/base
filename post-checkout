@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]]; then
+    plasmashell --replace & disown 
+fi
+
+if [[ "$XDG_CURRENT_DESKTOP" == *"xfce"* ]]; then
+    xfce-session -r
+fi
+
+if [[ "$XDG_CURRENT_DESKTOP" == *"gnome"* ]]; then
+    echo "gnome"
+fi
+
+if [[ "$XDG_CURRENT_DESKTOP" == *"i3"* ]]; then
+    echo "i3"
+fi

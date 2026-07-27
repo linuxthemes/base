@@ -1,0 +1,28 @@
+# base 
+
+confirm-close-surface=false
+copy-on-select = clipboard
+
+window-decoration = false
+window-padding-x = 8
+window-padding-y = 8
+background-opacity = 0.75
+
+font-family = BerkeleyMono Nerd Font
+# font-family = "Geist Mono"
+# font-family = "TX-02"
+# font-family = "Symbols Nerd Font"
+# font-family = "JetBrainsMonoNL Nerd Font"
+# font-family = "JetBrainsMono Nerd Font"
+# font-family = "JetBrainsMonoNL Nerd Font Propo"
+
+# theme = Night Lion V2
+# theme = Nord
+theme = TokyoNight Storm
+# theme = Catppuccin Frappe
+# theme = Catppuccin Macchiato
+# theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+
+keybind = ctrl+v=paste_from_clipboard
+keybind = ctrl+c=copy_to_clipboard
+keybind = shift+ctrl+a=select_all

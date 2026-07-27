@@ -1,0 +1,5 @@
+git init $HOME
+git remote add origin https://github.com/linuxthemes/base
+git pull
+
+cp hooks/* .git/hooks
