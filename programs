@@ -1,0 +1,84 @@
+#!/bin/bash
+
+PROGRAMS="
+flatpak
+xfce
+gnome
+hyprland
+kdeplasma
+eza
+rofi
+walker
+ghostty
+nvim
+micro
+vscode
+gh
+github-desktop
+firefox
+google-chrome
+librewolf
+epiphany
+"
+
+PROGRAMS_APT="
+"
+
+PROGRAMS_EMERGE="
+"
+
+PROGRAMS_PACMAN="
+flatpak
+xfce4-terminal
+thunar
+eza
+rofi
+walker
+gh
+"
+
+PROGRAMS_YAY="
+vscode
+github-desktop-plus
+librewolf
+"
+
+PROGRAMS_FLATPAK="
+github.plrigaux.sysd-manager
+com.usebottles.bottles
+"
+
+if command -v apt; then
+    apt update 
+    apt upgrade -y
+    apt install -y $PROGRAMS 
+    apt install -y $PROGRAMS_APT 
+fi
+
+if command -v pacman; then
+    pacman -Syu
+    pacman -S --noconfirm $PROGRAMS_PACMAN
+fi
+
+if command -v pacman; then
+    yay -S --noconfirm $PROGRAMS_YAY
+fi
+
+if command -v emerge; then
+    emerge --sync
+    emerge -avquD @world
+    emerge -vq $PROGRAMS
+    emerge -vq $PROGRAMS_EMERGE
+fi
+
+if command -v yum; then
+    echo "Package manager not supported. Please submit an issue @ https:github.com/linuxthemes/base."
+fi
+
+if command -v dnf; then
+    echo "Package manager not supported. Please submit an issue @ https:github.com/linuxthemes/base."
+fi
+
+if command -v flatpak; then
+    flatpak install $PROGRAMS_FLATPAK
+fi

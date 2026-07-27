@@ -1,0 +1,81 @@
+{
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "chat.commandCenter.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "window.confirmSaveUntitledWorkspace": false,
+    "git.openRepositoryInParentFolders": "always",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        // "terminal.background": "#000"
+    },
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.detectIndentation": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "\"Hack Nerd Font\", Consolas, monospace",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false // Set to true if you want 4 spaces instead of hard tabs
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[elixir]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls",
+        "editor.formatOnSave": true,
+        // "editor.insertSpaces": false, // ← CRITICAL: Use tabs, not spaces
+        "editor.tabSize": 4,
+    },
+    "terminal.integrated.stickyScroll.enabled": false,
+    "[phoenix-heex]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "explorer.autoReveal": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "chat.disableAIFeatures": true,
+    "[eex]": {
+        "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    "js/ts.updateImportsOnFileMove.enabled": "never",
+    "http.systemCertificatesNode": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.colorTheme": "Dark+",
+}

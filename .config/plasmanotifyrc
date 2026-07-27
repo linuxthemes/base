@@ -1,0 +1,9 @@
+[Applications][discord]
+Seen=true
+
+[Applications][org.gnome.Nautilus]
+Seen=true
+
+[DoNotDisturb]
+NotificationSoundsMuted=true
+Until=2026,12,7,19,17,15.417

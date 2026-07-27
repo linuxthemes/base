@@ -1,0 +1,6 @@
+title: btop ;; command: btop
+title: systemd ;; command: sudo systemctl-tui
+title: docker ;; command: sudo lazydocker
+title: vpn ;; command: sudo pvpn
+title: Agent1 ;; command: opencode /home/user1/Documents/GitHub/
+title: Agent2 ;; command: opencode /home/user1/Documents/GitHub/
