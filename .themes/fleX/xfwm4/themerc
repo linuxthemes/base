@@ -1,0 +1,35 @@
+# Name: fleX
+# Author: John Wright
+# License: GPL-3.0+
+# Notes: Initially adapted from mx-comfort-dark by MXLinux, and influenced by several other themes,
+#        such as Default, Numix, Kokodi, and Borders by Richard Wurth. 
+#      
+#      -  I wanted colored borders to differentiate the active window without being obnoxious.
+#      -  It uses the highlight color from the current GTK theme for the border color. 
+#      -  The borders are thick so they are easier to "grab" with the mouse.
+#      -  Buttons go wherever the user places them via XFCE Window Manager Style tab.
+#
+#    In my testing so far, it works well with both light and dark themes. 
+
+
+active_text_color=active_text_color_2
+#active_text_shadow_color=active_hilight_2
+inactive_text_color=inactive_text_color_2
+inactive_text_shadow_color=inactive_hilight_2
+
+button_offset=3
+button_spacing=0
+show_app_icon=true
+full_width_title=true
+maximized_offset=0
+title_horizontal_offset=3
+title_shadow_active=false
+title_shadow_inactive=false
+title_vertical_offset_active=0
+title_vertical_offset_inactive=0
+shadow_delta_height=0
+shadow_delta_width=0
+shadow_delta_x=0
+shadow_delta_y=0
+shadow_opacity=30
+frame_border_top=1

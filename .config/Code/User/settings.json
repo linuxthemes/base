@@ -1,0 +1,58 @@
+{
+    "telemetry.feedback.enabled": false,
+    "telemetry.editStats.enabled": false,
+    "telemetry.telemetryLevel": "off",
+
+    "chat.commandCenter.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "extensions.ignoreRecommendations": true,
+    "window.confirmSaveUntitledWorkspace": false,
+
+    "git.openRepositoryInParentFolders": "always",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+
+    "workbench.startupEditor": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorCustomizations": {
+        "terminal.background":"#000"
+    },
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
+
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "editor.inlayHints.enabled": "off",
+    "editor.detectIndentation": false,
+    "editor.stickyScroll.enabled": false,
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "\"Hack Nerd Font\", Consolas, monospace",
+
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.exclude": {
+        "**/.git": false
+    },
+
+}
