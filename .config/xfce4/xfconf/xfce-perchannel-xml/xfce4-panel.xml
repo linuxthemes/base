@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="digital-time-font" type="string" value="Sans 12"/>
+    </property>
+    <property name="plugin-2" type="string" value="applicationsmenu">
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="button-icon" type="string" value="preferences-system-linux"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/user1"/>
+      <property name="hidden-files" type="bool" value="true"/>
+      <property name="icon-name" type="string" value="org.gnome.Nautilus"/>
+    </property>
+    <property name="plugin-4" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17599121874.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-5" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+lock-screen"/>
+        <value type="string" value="+switch-user"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="+restart"/>
+        <value type="string" value="+separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="discord"/>
+      </property>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="panels" type="array">
+    <value type="int" value="2"/>
+    <value type="int" value="1"/>
+    <value type="int" value="3"/>
+    <property name="panel-0" type="empty">
+      <property name="plugin-ids" type="array">
+        <value type="int" value="4"/>
+        <value type="int" value="3"/>
+      </property>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=11;x=932;y=34"/>
+      <property name="length" type="double" value="1"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="border-width" type="uint" value="8"/>
+      <property name="enter-opacity" type="uint" value="75"/>
+      <property name="leave-opacity" type="uint" value="75"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="enable-struts" type="bool" value="false"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=96;y=25"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+      </property>
+      <property name="length" type="double" value="1"/>
+      <property name="border-width" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="75"/>
+      <property name="leave-opacity" type="uint" value="75"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="0"/>
+    </property>
+    <property name="panel-3" type="empty">
+      <property name="position" type="string" value="p=2;x=1824;y=25"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="enable-struts" type="bool" value="false"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="border-width" type="uint" value="0"/>
+      <property name="length" type="double" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="6"/>
+        <value type="int" value="5"/>
+        <value type="int" value="7"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="75"/>
+      <property name="leave-opacity" type="uint" value="75"/>
+    </property>
+  </property>
+  <property name="configver" type="int" value="2"/>
+</channel>
