@@ -1,0 +1,8 @@
+#!/bin/sh
+
+plasmashell --replace & disown # kde
+
+# xfce-session -r # xfce
+# gnome
+# hyprland
+# i3

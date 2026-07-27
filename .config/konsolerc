@@ -1,0 +1,12 @@
+[Desktop Entry]
+DefaultProfile=
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllTabs=true
+
+[UiSettings]
+ColorScheme=Breeze
+MenuBar=Disabled

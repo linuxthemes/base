@@ -1,0 +1,12 @@
+app=/usr/bin/google-chrome-stable
+custom_action_command=none
+last_user=
+last_extension=png
+show_in_folder=false
+screenshot_dir=file:/home/user1/Pictures
+action=2
+delay=1
+region=1
+show_mouse=0
+show_border=1
+
