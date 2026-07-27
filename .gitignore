@@ -1,0 +1,84 @@
+# base
+
+*
+!.gitignore
+!post-checkout
+
+!README.md
+!CONTRIBUTING.md # https://github.com/linuxthemes/base
+
+!.bashrc
+!.themes
+!.themes/**
+!.icons
+!.icons/**
+!.config
+
+!Pictures
+!Pictures/*
+
+!.config/eza
+!.config/eza/*
+
+!.config/micro
+!.config/micro/bindings.json
+!.config/micro/settings.json
+
+!.config/rofi
+!.config/rofi/*
+
+!.config/fastfetch
+!.config/fastfetch/*
+
+!.config/ghostty
+!.config/ghostty/*
+
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
+!.config/Code/User/keybindings.json
+
+!.config/Code - OSS
+!.config/Code - OSS/User
+!.config/Code - OSS/User/settings.json
+!.config/Code - OSS/User/keybindings.json
+
+!.config/gtk-3.0
+!.config/gtk-3.0/*
+!.config/gtk-4.0
+!.config/gtk-4.0/*
+
+# kde
+!.config/konsolerc
+!.config/spectaclerc
+!.config/ksplashrc
+!.config/kdeglobals
+!.config/kdedefaults
+!.config/kdedefaults/*
+!.config/plasmarc
+!.config/plasmashellrc
+!.config/plasmanotifyrc
+!.config/plasma-localerc
+!.config/plasma-welcomrc
+!.config/plasma-org.kde.plasma.desktop-appletsrc
+
+!.config/xsettingsd
+!.config/xsettingsd/xsettingsd.conf
+
+
+# gnome
+
+
+# xfce
+!.config/xfce4
+!.config/xfce4/**
+
+!.config/Thunar
+!.config/Thunar/*
+
+!.config/Mousepad
+!.config/Mousepad/*
+
+# hypr
+!.config/hypr
+!.config/hypr/*
