@@ -9,23 +9,14 @@ PreloadWeight=60
 popupHeight=450
 popupWidth=560
 
-[Containments][144]
-activityId=a3d091b7-8c3d-44e2-aeaa-702befbe74bf
+[Containments][145]
+activityId=6757cd6b-1388-4d5f-8c2c-8b0252cbc303
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][144][General]
-changedPositions={"desktop:/data.txt":["1536x864","1","0"]}
-lastResolution=1536x864
-positions={"1536x864":["2","14","desktop:/Jordan Williams.pdf","0","0","desktop:/data.txt","1","0"]}
-sortMode=-1
-
-[Containments][144][Wallpaper][org.kde.image][General]
-Image=/home/user1/Documents/GitHub/private/assets/gentoo/satellite-dish-starry-night-sky-scenery-4k-wallpaper-3840x2160-24.jpg
 
 [Containments][27]
 activityId=
@@ -135,8 +126,8 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][27][Applets][122][General]
-extraItems=org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect
-knownItems=org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect
+extraItems=org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.mediacontroller
+knownItems=org.kde.plasma.weather,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.clipboard,org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.keyboardlayout,org.kde.kscreen,org.kde.plasma.volume,org.kde.plasma.mediacontroller
 scaleIconsToFit=true
 
 [Containments][27][Applets][137]
@@ -196,4 +187,4 @@ plugin=org.kde.plasma.brightness
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/data.txt,0,a3d091b7-8c3d-44e2-aeaa-702befbe74bf,desktop:/Jordan Williams.pdf,0,a3d091b7-8c3d-44e2-aeaa-702befbe74bf
+screenMapping=desktop:/Jordan Williams.pdf,0,a3d091b7-8c3d-44e2-aeaa-702befbe74bf,desktop:/data.txt,0,a3d091b7-8c3d-44e2-aeaa-702befbe74bf

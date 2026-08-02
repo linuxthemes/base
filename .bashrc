@@ -5,76 +5,75 @@
 # Prevent script from running if the shell is not interactive
 [[ $- != *i* ]] && return
 
-# ------------------------------------------------------------------------------
-# PROMPT CONFIGURATION (PS1)
-# ------------------------------------------------------------------------------
-
-# CentOS / Fedora Prompt
-# [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
-
-# Debian Prompt
-# PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-
-# Arch Linux Prompt 
-PS1='\[\e[1;34m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;37m\]\w\[\e[0m\]\$ '
-
-# Gentoo Prompt
-# if [[ ${EUID} == 0 ]] ; then
-#     PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
-# else
-#     PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
-# fi
-
-# ------------------------------------------------------------------------------
-# PACKAGE MANAGERS
-# ------------------------------------------------------------------------------
-
 # Alias sudo to allow expansion of subsequent aliases
 alias sudo='sudo '
 
-# Emerge (Gentoo)
-# alias list="emerge -pqe @world"
-# alias list="emerge -pqe --nodeps @selected"
-# alias listdups="equery list --duplicates '*'"
-# alias listworld="emerge -pqe --nodeps @world"
-# alias sync="emerge --sync"
-# alias install="emerge -avq "
-# alias remove="emerge --depclean -avq" 
-# alias update="emerge -avquD @world --with-bdeps=y" 
-# alias update-new="emerge -avquDN @world" 
-# alias update-changed="emerge -avquDU @world" 
-# alias clean="emerge --depclean -aq"
-# alias checkse="glsa-check --test all"
+# ------------------------------------------------------------------------------
+# CONFIGURATION & PACKAGE MANAGERS
+# ------------------------------------------------------------------------------
 
-# Apt (Debian/Ubuntu)
-# alias update='sudo apt update && sudo apt upgrade -y' 
-# alias install='sudo apt install'
-# alias remove='sudo apt remove'
-# alias clean='sudo apt autoremove && sudo apt autoclean'
-# alias list='apt list --installed'
-
-# Nala (Apt Frontend)
-# alias update='sudo nala update && sudo nala upgrade -y' 
-# alias install='sudo nala install'
-# alias remove='sudo nala remove'
-# alias clean='sudo nala autoremove'
-# alias list='nala list --installed'
+# Gentoo
+elif command -v emerge &> /dev/null; then 
+    if [[ ${EUID} == 0 ]] ; then
+        PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
+    else
+        PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
+    fi
+    alias list="emerge -pqe @world"
+    alias listdups="equery list --duplicates '*'"
+    alias listworld="emerge -pqe --nodeps @world"
+    alias sync="emerge --sync"
+    alias install="emerge -avq "
+    alias remove="emerge --depclean -avq"
+    alias update="emerge -avquD @world --with-bdeps=y"
+    alias update-new="emerge -avquDN @world"
+    alias update-changed="emerge -avquDU @world"
+    alias clean="emerge --depclean -aq"
+    alias checkse="glsa-check --test all"
 
 # Arch Linux 
-alias update='sudo pacman -Syu'
-alias install='sudo pacman -S'
-alias remove='sudo pacman -Rs' 
-alias list='pacman -Qe'     
-alias clean='[[ -n $(pacman -Qtdq) ]] && sudo pacman -Rns $(pacman -Qtdq) || echo "No orphans to clean."'
-alias installa='yay -S'
-alias updater='yay -Syu'
-alias lister='yay -Qem'
+elif command -v pacman &> /dev/null; then
+    PS1='\[\e[1;34m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;37m\]\w\[\e[0m\]\$ '
+    alias update='sudo pacman -Syu'
+    alias install='sudo pacman -S'
+    alias remove='sudo pacman -Rs' 
+    alias list='pacman -Qe'     
+    alias clean='[[ -n $(pacman -Qtdq) ]] && sudo pacman -Rns $(pacman -Qtdq) || echo "No orphans to clean."'
+    alias installa='yay -S'
+    alias updater='yay -Syu'
+    alias lister='yay -Qem'
 
-# DNF (Fedora/CentOS)
-# alias update='sudo dnf upgrade --refresh'
-# alias install='sudo dnf install'
-# alias remove='sudo dnf remove'
-# alias list='dnf list installed'
+# Nala (Debian/Ubuntu Frontend)
+elif command -v nala &> /dev/null; then
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    alias update='sudo nala update && sudo nala upgrade -y' 
+    alias install='sudo nala install'
+    alias remove='sudo nala remove'
+    alias clean='sudo nala autoremove'
+    alias list='nala list --installed'
+
+# Debian / Ubuntu (Apt)
+elif command -v apt &> /dev/null; then
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+    alias update='sudo apt update && sudo apt upgrade -y' 
+    alias install='sudo apt install'
+    alias remove='sudo apt remove'
+    alias clean='sudo apt autoremove && sudo apt autoclean'
+    alias list='apt list --installed'
+
+# CentOS / Fedora (DNF)
+elif [ -f /etc/fedora-release ] || [ -f /etc/redhat-release ] || command -v dnf &> /dev/null; then
+    PS1="[\s-\\v\\\$ ] "
+    alias update='sudo dnf upgrade --refresh'
+    alias install='sudo dnf install'
+    alias remove='sudo dnf remove'
+    alias list='dnf list installed'
+
+# Default fallback
+else
+    PS1='\u@\h:\w\$ '
+    echo "Warning: No supported package manager detected."
+fi
 
 # ------------------------------------------------------------------------------
 # PROGRAM ALIASES & UTILITIES
@@ -153,9 +152,3 @@ extract () {
     echo "'$1' is not a valid file"
   fi
 }
-
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/user1/.lmstudio/bin"
-# End of LM Studio CLI section
-
