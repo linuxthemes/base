@@ -13,7 +13,7 @@ alias sudo='sudo '
 # ------------------------------------------------------------------------------
 
 # Gentoo
-elif command -v emerge &> /dev/null; then 
+if command -v emerge &> /dev/null; then
     if [[ ${EUID} == 0 ]] ; then
         PS1='\[\033[01;31m\]\h\[\033[01;34m\] \W \$\[\033[00m\] '
     else
@@ -31,13 +31,13 @@ elif command -v emerge &> /dev/null; then
     alias clean="emerge --depclean -aq"
     alias checkse="glsa-check --test all"
 
-# Arch Linux 
+# Arch Linux
 elif command -v pacman &> /dev/null; then
     PS1='\[\e[1;34m\]\u\[\e[0m\]@\[\e[1;32m\]\h\[\e[0m\]:\[\e[1;37m\]\w\[\e[0m\]\$ '
     alias update='sudo pacman -Syu'
     alias install='sudo pacman -S'
-    alias remove='sudo pacman -Rs' 
-    alias list='pacman -Qe'     
+    alias remove='sudo pacman -Rs'
+    alias list='pacman -Qe'
     alias clean='[[ -n $(pacman -Qtdq) ]] && sudo pacman -Rns $(pacman -Qtdq) || echo "No orphans to clean."'
     alias installa='yay -S'
     alias updater='yay -Syu'
@@ -46,7 +46,7 @@ elif command -v pacman &> /dev/null; then
 # Nala (Debian/Ubuntu Frontend)
 elif command -v nala &> /dev/null; then
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-    alias update='sudo nala update && sudo nala upgrade -y' 
+    alias update='sudo nala update && sudo nala upgrade -y'
     alias install='sudo nala install'
     alias remove='sudo nala remove'
     alias clean='sudo nala autoremove'
@@ -55,7 +55,7 @@ elif command -v nala &> /dev/null; then
 # Debian / Ubuntu (Apt)
 elif command -v apt &> /dev/null; then
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-    alias update='sudo apt update && sudo apt upgrade -y' 
+    alias update='sudo apt update && sudo apt upgrade -y'
     alias install='sudo apt install'
     alias remove='sudo apt remove'
     alias clean='sudo apt autoremove && sudo apt autoclean'
@@ -106,12 +106,12 @@ alias fzfa='fzf --style full \
 alias themes-install="git init $HOME && git remote add origin https://github.com/linuxthemes/base && git pull origin main"
 alias themes-update="git pull"
 alias themes-switch="git checkout"
-alias themes-create="git checkout -b" 
+alias themes-create="git checkout -b"
 alias themes-push="git push"
 alias themes-programs="sh $HOME/programs"
 
 # ------------------------------------------------------------------------------
-# EXPORTS & ENVIRONMENT 
+# EXPORTS & ENVIRONMENT
 # ------------------------------------------------------------------------------
 
 # export PATH="$HOME/.cargo/bin:$PATH"
@@ -121,14 +121,14 @@ alias themes-programs="sh $HOME/programs"
 
 # Node Version Manager
 # export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # uv
 export PATH="/home/$USER/.local/bin:$PATH"
 
 # ------------------------------------------------------------------------------
-# FUNCTIONS 
+# FUNCTIONS
 # ------------------------------------------------------------------------------
 
 # Extract any archive easily
