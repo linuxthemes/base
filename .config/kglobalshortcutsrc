@@ -271,6 +271,9 @@ _launch=Search\tCtrl+Space\tAlt+F2
 CurrentMonitorScreenShot=none
 OpenWithoutScreenshot=none
 
+[services][rofi.desktop]
+_launch=none
+
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
 Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Map to screen 1

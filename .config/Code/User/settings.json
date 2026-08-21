@@ -77,5 +77,8 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
-    "workbench.colorTheme": "Dark+",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "window.menuBarVisibility": "compact",
+    "workbench.browser.showInTitleBar": true,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
 }

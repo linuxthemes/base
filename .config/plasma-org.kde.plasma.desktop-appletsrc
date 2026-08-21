@@ -18,6 +18,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][144][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][144][General]
+changedPositions={"desktop:/Jordan Williams.pdf":["1536x864","0","0"],"desktop:/data.txt":["1536x864","1","0"]}
+lastResolution=1536x864
+positions={"1536x864":["2","14","desktop:/data.txt","1","0","desktop:/Jordan Williams.pdf","0","0"]}
+sortMode=-1
+
+[Containments][144][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Sub-Arctic/
+SlidePaths=/usr/share/wallpapers/
+
 [Containments][27]
 activityId=
 formfactor=2
